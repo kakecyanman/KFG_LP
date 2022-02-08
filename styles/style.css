@@ -62,8 +62,76 @@ Stylesheet: キャンペーン概要
 
 ******************************************************************/
 .campaign {
-    height: 1127px;
+    height: 1100px;
     width: 100%;
+}
+
+.campaign__period {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.campaign__day {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0 25px 0;
+}
+.campaign__text {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    border-top: solid 2px #000;
+}
+
+.campaign__overview {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.campaign__contents {
+    width: 720px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 25px;
+    font-size: 11px;
+    border: solid 1px #E6E6E6;
+}
+
+/* リボンテープ */
+.campaign__title {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 40px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+.campaign__title::before, .campaign__title::after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+.campaign__title::before {
+    top: 0;
+    left: 0;
+    border-width: 20px 0px 20px 10px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+}
+.campaign__title::after {
+    top: 0;
+    right: 0;
+    border-width: 20px 10px 20px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
 }
 
 /******************************************************************
@@ -126,7 +194,7 @@ Stylesheet: フッター
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
-
+    
 
     /******************************************************************
 
