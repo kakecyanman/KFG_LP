@@ -51,18 +51,35 @@ Stylesheet: Step
 .step__01 {
     width: 33.5%;
     background-color: #F7FFFF;
+    padding-top: 155px;
+    text-align: center;
 }
 .step__01__main {
     align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
 }
 .step__01__title {
     font-size: 20px;
     font-weight: bold;
     margin-left: 10px;
 }
+.step__01__app {
+    justify-content: center;
+    margin-top: 55px;
+}
+.step__01__android__btn {
+    border: none;
+    background-color: #F7FFFF;
+}
+.step__01__iphone__btn {
+    border: none;
+    background-color: #F7FFFF;
+}
 
 .step__02 {
     width: 33%;
+    background-color: #E4F8F2;
 
 }
 .step__03 {
