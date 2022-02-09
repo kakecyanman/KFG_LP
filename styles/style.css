@@ -64,6 +64,10 @@ Stylesheet: Step
     font-weight: bold;
     margin-left: 10px;
 }
+.step__01__text {
+    font-size: 16px;
+    font-weight: bold;
+}
 .step__01__app {
     justify-content: center;
     margin-top: 55px;
@@ -80,11 +84,47 @@ Stylesheet: Step
 .step__02 {
     width: 33%;
     background-color: #E4F8F2;
-
+    padding-top: 155px;
+    text-align: center;
 }
+.step__02__main {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+.step__02__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.step__02__text {
+    font-size: 16px;
+    font-weight: bold;
+}
+.step__02__img {
+    margin-top: 160px;
+}
+.step__02__imgText {
+    font-size: 12px;
+}
+.step__02__img > img {
+    margin-top: -10px;
+}
+
 .step__03 {
     width: 33.5%;
     background-color: #CCF5DF;
+    padding-top: 155px;
+}
+.step__03__main {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 53px;
+}
+.step__03__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 /******************************************************************
@@ -171,9 +211,36 @@ Stylesheet: Hugmegとは
 
 ******************************************************************/
 .detail {
-    height: 739px;
+    height: 659px;
     width: 100%;
     background-color: #F1F3CD;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.detail__img {
+    width: 535px;
+    height: 527px;
+}
+.detail__title > span {
+    font-size: 23px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.detail__text {
+    width: 400px;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.detail__btn {
+    background-color: #64B22A;
+    padding: 20px 25px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
 }
 
 /******************************************************************
