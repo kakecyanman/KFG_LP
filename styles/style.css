@@ -16,7 +16,11 @@ Stylesheet: ヘッダー
 .header {
     height: 100px;
     width: 100%;
+    padding: 25px 150px 0 ;
     background-color: #FFFFFF;
+}
+
+.header__log {
 }
 
 .mobile-menu__btn {
@@ -43,10 +47,20 @@ Stylesheet: Step
     height: 876px;
     width: 100%;
 }
+
 .step__01 {
     width: 33.5%;
     background-color: #F7FFFF;
 }
+.step__01__main {
+    align-items: center;
+}
+.step__01__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
 .step__02 {
     width: 33%;
 
