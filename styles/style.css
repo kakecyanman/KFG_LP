@@ -128,6 +128,19 @@ Stylesheet: Step
     margin-left: 10px;
 }
 
+.swiper-container {
+    width: 280px;
+    height: 547px;
+    text-align: center;
+}
+.swiper__title {
+    font-size: 12px;
+}
+.swiper__bar {
+    text-align: center;
+}
+
+
 /******************************************************************
 
 Stylesheet: キャンペーン概要
