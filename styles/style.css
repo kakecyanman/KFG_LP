@@ -34,6 +34,10 @@ Stylesheet: バナー
     width: 100%;
     background-color: chartreuse;
 }
+.banner > img {
+    height: 100%;
+    width: 100%;
+}
 
 /******************************************************************
 
