@@ -360,6 +360,51 @@ Stylesheet: フッター
     height: 487px;
     width: 100%;
     background-color: #64B22A;
+    padding-top: 120px;
+}
+
+.footer__app {
+    justify-content: center;
+
+}
+.footer__app__android__btn {
+    border: none;
+    background-color: #64B22A;
+}
+.footer__app__android__btn > img {
+    width: 177px;
+    height: 53px;
+}
+.footer__app__iphone__btn {
+    border: none;
+    background-color: #64B22A;
+}
+.footer__app__iphone__btn > img {
+    width: 144px;
+    height: 53px;
+}
+.footer__textGoogle {
+    width: 329px;
+    font-size: 11px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-left:1em;
+	text-indent:-1em;
+}
+.footer__textApple {
+    width: 329px;
+    font-size: 11px;
+    color: #fff;
+    margin: 0 auto;
+    padding-left:1em;
+	text-indent:-1em;
+}
+.footer__copy {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: 125px;
 }
 
 
