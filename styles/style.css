@@ -240,6 +240,20 @@ Stylesheet: Hugmegとは
     border: none;
 }
 
+.triangle {
+    position: relative;
+}
+.triangle::after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    border-top: 80px solid #F1F3CD;
+    align-items: flex-end;
+    z-index: 10;
+}
+
 /******************************************************************
 
 Stylesheet: 応募方法
