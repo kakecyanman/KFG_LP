@@ -1,11 +1,10 @@
-
 /******************************************************************
 
 Stylesheet: 全体
 
 ******************************************************************/
 .flex {
-    display: flex;
+  display: flex;
 }
 
 /******************************************************************
@@ -14,14 +13,14 @@ Stylesheet: ヘッダー
 
 ******************************************************************/
 .header {
-    height: 100px;
-    width: 100%;
-    padding: 25px 150px 0 ;
-    background-color: #FFFFFF;
+  height: 100px;
+  width: 100%;
+  padding: 25px 150px 0;
+  background-color: #ffffff;
 }
 
 .mobile-menu__btn {
-    display: none;
+  display: none;
 }
 
 /******************************************************************
@@ -29,117 +28,123 @@ Stylesheet: ヘッダー
 Stylesheet: バナー
 
 ******************************************************************/
-.banner {
-    height: 668px;
-    width: 100%;
-    background-color: chartreuse;
+.banner__PC {
+  height: 668px;
+  width: 100%;
+  background-color: chartreuse;
 }
-.banner > img {
-    height: 100%;
-    width: 100%;
+.banner__PC > img {
+  height: 100%;
+  width: 100%;
 }
 
+.banner__SP {
+  display: none;
+}
+
+.stepIcon__SP, .triangle__SP {
+  display: none;
+}
 /******************************************************************
 
 Stylesheet: Step
 
 ******************************************************************/
 .step {
-    height: 876px;
-    width: 100%;
+  height: 876px;
+  width: 100%;
 }
 
 .step__01 {
-    width: 33.5%;
-    background-color: #F7FFFF;
-    padding-top: 155px;
-    text-align: center;
+  width: 33.5%;
+  background-color: #f7ffff;
+  padding-top: 155px;
+  text-align: center;
 }
 .step__01__main {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 27px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 27px;
 }
 .step__01__title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 .step__01__text {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 .step__01__app {
-    justify-content: center;
-    margin-top: 55px;
+  justify-content: center;
+  margin-top: 55px;
 }
 .step__01__android__btn {
-    border: none;
-    background-color: #F7FFFF;
+  border: none;
+  background-color: #f7ffff;
 }
 .step__01__iphone__btn {
-    border: none;
-    background-color: #F7FFFF;
+  border: none;
+  background-color: #f7ffff;
 }
 
 .step__02 {
-    width: 33%;
-    background-color: #E4F8F2;
-    padding-top: 155px;
-    text-align: center;
+  width: 33%;
+  background-color: #e4f8f2;
+  padding-top: 155px;
+  text-align: center;
 }
 .step__02__main {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 27px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 27px;
 }
 .step__02__title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 .step__02__text {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 .step__02__img {
-    margin-top: 160px;
+  margin-top: 160px;
 }
 .step__02__imgText {
-    font-size: 12px;
+  font-size: 12px;
 }
 .step__02__img > img {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .step__03 {
-    width: 33.5%;
-    background-color: #CCF5DF;
-    padding-top: 155px;
+  width: 33.5%;
+  background-color: #ccf5df;
+  padding-top: 155px;
 }
 .step__03__main {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 53px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 53px;
 }
 .step__03__title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .swiper-container {
-    width: 280px;
-    height: 547px;
-    text-align: center;
+  width: 280px;
+  height: 547px;
+  text-align: center;
 }
 .swiper__title {
-    font-size: 12px;
+  font-size: 12px;
 }
 .swiper__bar {
-    text-align: center;
+  text-align: center;
 }
-
 
 /******************************************************************
 
@@ -147,76 +152,77 @@ Stylesheet: キャンペーン概要
 
 ******************************************************************/
 .campaign {
-    height: 1100px;
-    width: 100%;
+  height: 1100px;
+  width: 100%;
 }
 
 .campaign__period {
-    width: 450px;
-    margin: 0 auto;
-    text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
 }
 .campaign__day {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 40px 0 25px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0 25px 0;
 }
 .campaign__text {
-    font-size: 16px;
-    font-weight: bold;
-    padding-top: 10px;
-    border-top: solid 2px #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  border-top: solid 2px #000;
 }
 
 .campaign__overview {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 .campaign__contents {
-    width: 720px;
-    text-align: left;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 25px;
-    font-size: 11px;
-    border: solid 1px #E6E6E6;
+  width: 720px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 25px;
+  font-size: 11px;
+  border: solid 1px #e6e6e6;
 }
 
 /* リボンテープ */
 .campaign__title {
-    display: inline-block;
-    position: relative;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    padding: 0 40px;
-    font-size: 18px;
-    background-color: #000;
-    color: #fff;
-    box-sizing: border-box;
-    margin-top: 80px;
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 80px;
 }
-.campaign__title::before, .campaign__title::after {
-    position: absolute;
-    content: '';
-    width: 0px;
-    height: 0px;
-    z-index: 1;
+.campaign__title::before,
+.campaign__title::after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  z-index: 1;
 }
 .campaign__title::before {
-    top: 0;
-    left: 0;
-    border-width: 20px 0px 20px 10px;
-    border-color: transparent transparent transparent #fff;
-    border-style: solid;
+  top: 0;
+  left: 0;
+  border-width: 20px 0px 20px 10px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
 }
 .campaign__title::after {
-    top: 0;
-    right: 0;
-    border-width: 20px 10px 20px 0px;
-    border-color: transparent #fff transparent transparent;
-    border-style: solid;
+  top: 0;
+  right: 0;
+  border-width: 20px 10px 20px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
 }
 
 /******************************************************************
@@ -225,52 +231,52 @@ Stylesheet: Hugmegとは
 
 ******************************************************************/
 .detail {
-    height: 659px;
-    width: 100%;
-    background-color: #F1F3CD;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  height: 659px;
+  width: 100%;
+  background-color: #f1f3cd;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .detail__img {
-    width: 535px;
-    height: 527px;
+  width: 535px;
+  height: 527px;
 }
 .detail__title > span {
-    font-size: 23px;
-    font-weight: bold;
-    vertical-align: bottom;
+  font-size: 23px;
+  font-weight: bold;
+  vertical-align: bottom;
 }
 .detail__text {
-    width: 400px;
-    font-size: 18px;
-    text-align: left;
-    margin-top: 40px;
-    margin-bottom: 90px;
+  width: 400px;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 90px;
 }
 .detail__btn {
-    background-color: #64B22A;
-    padding: 20px 25px;
-    color: #fff;
-    border-radius: 10px;
-    border: none;
-    font-size: 15px;
-    font-weight: bold;
+  background-color: #64b22a;
+  padding: 20px 25px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .triangle {
-    position: relative;
+  position: relative;
 }
 .triangle::after {
-    content: "";
-    position: absolute;
-    box-sizing: border-box;
-    border-right: 50vw solid transparent;
-    border-left: 50vw solid transparent;
-    border-top: 80px solid #F1F3CD;
-    align-items: flex-end;
-    z-index: 10;
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
+  border-top: 80px solid #f1f3cd;
+  align-items: flex-end;
+  z-index: 10;
 }
 
 /******************************************************************
@@ -279,93 +285,93 @@ Stylesheet: 応募方法
 
 ******************************************************************/
 .method {
-    height: 1090px;
-    width: 100%;
+  height: 1090px;
+  width: 100%;
 }
 
 .stepIcon {
-    margin-top: 160px;
-    text-align: center;
+  margin-top: 160px;
+  text-align: center;
 }
 .stepIcon__title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 .stepIcon__icon {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .stepIcon__text {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 .rightEdge {
-    width: 12px;
-    height: 25px;
-    margin: 0 15px;
-    transform: translateY(-15px);
+  width: 12px;
+  height: 25px;
+  margin: 0 15px;
+  transform: translateY(-15px);
 }
 
 .download {
-    margin-top: 80px;
-    text-align: center;
+  margin-top: 80px;
+  text-align: center;
 }
 .download__title {
-    font-size: 22px;
-    margin-bottom: 23px;
+  font-size: 22px;
+  margin-bottom: 23px;
 }
 .download__app {
-    justify-content: center;
+  justify-content: center;
 }
 .download__app__android__text {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 .download__app__android__btn {
-    border: none;
-    background-color: #fff;
+  border: none;
+  background-color: #fff;
 }
 .download__app__android__btn > img {
-    width: 214px;
-    height: 64px;
+  width: 214px;
+  height: 64px;
 }
 .download__app__iphone__text {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 .download__app__iphone__btn {
-    border: none;
-    background-color: #fff;
+  border: none;
+  background-color: #fff;
 }
 .download__app__iphone__btn > img {
-    width: 171px;
-    height: 64px;
+  width: 171px;
+  height: 64px;
 }
 
 .inquiry {
-    margin-top: 104px;
-    text-align: center;
+  margin-top: 104px;
+  text-align: center;
 }
 .inquiry__title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 .inquiry__text {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 .inquiry__btn {
-    background-color: #61B323;
-    padding: 20px 122px;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
+  background-color: #61b323;
+  padding: 20px 122px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /******************************************************************
@@ -374,277 +380,331 @@ Stylesheet: フッター
 
 ******************************************************************/
 .footer {
-    height: 487px;
-    width: 100%;
-    background-color: #64B22A;
-    padding-top: 120px;
+  height: 487px;
+  width: 100%;
+  background-color: #64b22a;
+  padding-top: 120px;
 }
 
 .footer__app {
-    justify-content: center;
-
+  justify-content: center;
 }
 .footer__app__android__btn {
-    border: none;
-    background-color: #64B22A;
+  border: none;
+  background-color: #64b22a;
 }
 .footer__app__android__btn > img {
-    width: 177px;
-    height: 53px;
+  width: 177px;
+  height: 53px;
 }
 .footer__app__iphone__btn {
-    border: none;
-    background-color: #64B22A;
+  border: none;
+  background-color: #64b22a;
 }
 .footer__app__iphone__btn > img {
-    width: 144px;
-    height: 53px;
+  width: 144px;
+  height: 53px;
 }
 .footer__textGoogle {
-    width: 329px;
-    font-size: 11px;
-    color: #fff;
-    margin: 0 auto;
-    margin-top: 15px;
-    padding-left:1em;
-	text-indent:-1em;
+  width: 329px;
+  font-size: 11px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 .footer__textApple {
-    width: 329px;
-    font-size: 11px;
-    color: #fff;
-    margin: 0 auto;
-    padding-left:1em;
-	text-indent:-1em;
+  width: 329px;
+  font-size: 11px;
+  color: #fff;
+  margin: 0 auto;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 .footer__copy {
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    margin-top: 125px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 125px;
 }
 
 /* TOPに戻るボタン */
 #page__top {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    background: #fff;
-    color: #737373;
-    padding: 40px 30px;
-    border: solid 1px;
-    border-radius: 50%;
-    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
-    z-index: 100;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  background: #fff;
+  color: #737373;
+  padding: 40px 30px;
+  border: solid 1px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px -6px rgba(0, 0, 0, 0.5),
+    0 3px 10px -4px rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 
-
 @media screen and (max-width: 480px) {
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: ヘッダー
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: バナー
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Step
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
-    
 
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Hugmegとは
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: 応募方法
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: フッター
 
     ******************************************************************/
-
-
 }
 
 @media screen and (max-width: 600px) {
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: ヘッダー
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: バナー
 
     ******************************************************************/
+  .banner__SP {
+    display: block;
+    width: 100%;
+    height: 851px;
+  }
+  .banner__SP > img {
+    width: 100%;
+    height: 100%;
+  }
 
+  .stepIcon__SP {
+    display: block;
+    background-color: #d6f2ee;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .stepIcon__SP__title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+  .stepIcon__SP__icon {
+    justify-content: center;
+    align-items: center;
+  }
+  .stepIcon__SP__text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .stepIcon__SP__register__icon {
+      width: 85px;
+      height: 85px;
+  }
+  .stepIcon__SP__check__icon {
+    width: 85px;
+    height: 85px;    
+  }
+  .stepIcon__SP__get__icon {
+    width: 85px;
+    height: 85px;       
+  }
+  .rightEdge__SP {
+    width: 12px;
+    height: 25px;
+    margin: 0 15px;
+    transform: translateY(-15px);
+  }
 
-    /******************************************************************
+  .triangle__SP {
+      display: block;
+      position: relative;
+  }
+  .triangle__SP::after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    border-top: 40px solid #d6f2ee;
+    align-items: flex-end;
+    z-index: 10;
+  }
+
+  /******************************************************************
 
     Stylesheet: Step
 
     ******************************************************************/
+  .step {
+    flex-direction: column;
+    width: 100%;
+    height: 1634px;
+  }
 
+  .step__01 {
+    width: 100%;
+  }
 
-    /******************************************************************
+  .step__02 {
+    width: 100%;
+  }
+
+  .step__03 {
+    width: 100%;
+  }
+
+  /******************************************************************
 
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
+  .campaign__contents {
+    width: 80%;
+  }
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Hugmegとは
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: 応募方法
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: フッター
 
     ******************************************************************/
-
-
 }
 
 @media screen and (max-width: 960px) {
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: ヘッダー
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: バナー
 
     ******************************************************************/
+  .banner__PC {
+    display: none;
+  }
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Step
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Hugmegとは
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: 応募方法
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: フッター
 
     ******************************************************************/
-    
-
 }
 
 @media screen and (max-width: 1280px) {
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: ヘッダー
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: バナー
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Step
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: Hugmegとは
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: 応募方法
 
     ******************************************************************/
 
-
-    /******************************************************************
+  /******************************************************************
 
     Stylesheet: フッター
 
     ******************************************************************/
-
-
 }
