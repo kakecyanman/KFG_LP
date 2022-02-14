@@ -152,8 +152,8 @@ Stylesheet: キャンペーン概要
 
 ******************************************************************/
 .campaign {
-  height: 1100px;
   width: 100%;
+  padding-bottom: 80px;
 }
 
 .campaign__period {
@@ -231,7 +231,7 @@ Stylesheet: Hugmegとは
 
 ******************************************************************/
 .detail {
-  height: 659px;
+  padding-bottom: 65px;
   width: 100%;
   background-color: #f1f3cd;
   justify-content: center;
@@ -285,7 +285,7 @@ Stylesheet: 応募方法
 
 ******************************************************************/
 .method {
-  height: 1090px;
+  padding-bottom: 200px;
   width: 100%;
 }
 
@@ -496,6 +496,16 @@ Stylesheet: フッター
     Stylesheet: ヘッダー
 
     ******************************************************************/
+    .header {
+      height: 75px;
+      width: 100%;
+      padding: 15px 40px 0;
+      background-color: #ffffff;
+    }
+    .header__log {
+      width: 112px;
+      height: 40px;  
+    }
 
   /******************************************************************
 
@@ -580,14 +590,25 @@ Stylesheet: フッター
 
   .step__01 {
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
 
   .step__02 {
     width: 100%;
+    padding-top: 40px;
+  }
+  .step__02__text {
+    font-size: 14px;
+  }
+  .step__02__img {
+    margin-top: 20px;
   }
 
   .step__03 {
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
 
   /******************************************************************
@@ -595,9 +616,60 @@ Stylesheet: フッター
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
-  .campaign__contents {
-    width: 80%;
+  .campaign__period {
+    width: 90%;
+    padding-top: 60px;
   }
+  .campaign__day {
+    font-size: 16px;
+  }
+  .campaign__text {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    border-top: solid 2px #000;
+  }
+  
+  .campaign__contents {
+    width: 85%;
+  }
+
+  /* リボンテープ */
+.campaign__title {
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+.campaign__title::before,
+.campaign__title::after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+.campaign__title::before {
+  top: 0;
+  left: 0;
+  border-width: 0px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+}
+.campaign__title::after {
+  top: 0;
+  right: 0;
+  border-width: 20px 10px 20px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+}
 
   /******************************************************************
 
