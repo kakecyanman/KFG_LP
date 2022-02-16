@@ -3,6 +3,10 @@
 Stylesheet: 全体
 
 ******************************************************************/
+body {
+  font-family: noto-sans-cjk-jp, sans-serif;
+}
+
 .flex {
   display: flex;
 }
@@ -231,6 +235,7 @@ Stylesheet: Hugmegとは
 
 ******************************************************************/
 .detail {
+  padding-top: 66px;
   padding-bottom: 65px;
   width: 100%;
   background-color: #f1f3cd;
@@ -263,6 +268,10 @@ Stylesheet: Hugmegとは
   border: none;
   font-size: 15px;
   font-weight: bold;
+}
+
+.detail__SP {
+  display: none;
 }
 
 .triangle {
@@ -374,16 +383,20 @@ Stylesheet: 応募方法
   font-weight: bold;
 }
 
+.inquiry__SP {
+  display: none;
+}
+
 /******************************************************************
 
 Stylesheet: フッター
 
 ******************************************************************/
 .footer {
-  height: 487px;
   width: 100%;
   background-color: #64b22a;
   padding-top: 120px;
+  padding-bottom: 122px;
 }
 
 .footer__app {
@@ -426,7 +439,7 @@ Stylesheet: フッター
   font-size: 14px;
   color: #fff;
   text-align: center;
-  margin-top: 125px;
+  margin-top: 120px;
 }
 
 /* TOPに戻るボタン */
@@ -437,12 +450,13 @@ Stylesheet: フッター
   font-size: 1.2rem;
   line-height: 1.2rem;
   background: #fff;
-  color: #737373;
+  color: #707070;
   padding: 40px 30px;
   border: solid 1px;
   border-radius: 50%;
-  box-shadow: 0 2px 10px -6px rgba(0, 0, 0, 0.5),
-    0 3px 10px -4px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 2px 10px -6px rgba(0, 0, 0, 0.5),
+    0 3px 10px -4px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   z-index: 100;
 }
 
@@ -490,7 +504,7 @@ Stylesheet: フッター
     ******************************************************************/
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   /******************************************************************
 
     Stylesheet: ヘッダー
@@ -512,10 +526,14 @@ Stylesheet: フッター
     Stylesheet: バナー
 
     ******************************************************************/
+  .banner__PC {
+    display: none;
+  }
+  
   .banner__SP {
     display: block;
     width: 100%;
-    height: 851px;
+    height: 1731px;
   }
   .banner__SP > img {
     width: 100%;
@@ -632,6 +650,7 @@ Stylesheet: フッター
   
   .campaign__contents {
     width: 85%;
+    font-size: 11px;
   }
 
   /* リボンテープ */
@@ -676,21 +695,146 @@ Stylesheet: フッター
     Stylesheet: Hugmegとは
 
     ******************************************************************/
+  .detail {
+    display: none;
+  }
+  
+  .detail__SP {
+    display: block;
+    width: 100%;
+    background-color: #f1f3cd;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .detail__SP__title {
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+  .detail__SP__title > img {
+    width: 130px;
+    height: 47px;
+  }
+  .detail__SP__title > span {
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: bottom;
+  }
+  .detail__SP__text {
+    font-size: 12px;
+    width: 280px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .detail__SP__img {
+    width: 330px;
+    height: 325px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  .detail__SP__btn {
+    background-color: #64b22a;
+    padding: 20px 25px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+
+  .triangle::after {
+    border-top: 10px solid #f1f3cd;
+  }
 
   /******************************************************************
 
     Stylesheet: 応募方法
 
     ******************************************************************/
+    .method {
+      padding-bottom: 80px;
+    }
+    
+    .stepIcon {
+      margin-top: 60px;
+    }
+    .stepIcon__title {
+      font-size: 20px;
+    }
+    .stepIcon__register__icon, .stepIcon__check__icon, .stepIcon__get__icon {
+      width: 85px;
+      height: 85px;
+    }
+    .stepIcon__text {
+      font-size: 15px;
+    }
+    .rightEdge {
+      width: 10px;
+      height: 20px;
+      margin: 0 10px;
+      transform: translateY(-15px);
+    }
+    
+    .download {
+      margin-top: 45px;
+    }
+    .download__title {
+      font-size: 18px;
+      margin-bottom: 17px;
+    }
+    .download__app__android__text {
+      font-size: 15px;
+    }
+    .download__app__android__btn > img {
+      width: 177px;
+      height: 53px;
+    }
+    .download__app__iphone__text {
+      font-size: 15px;
+    }
+    .download__app__iphone__btn > img {
+      width: 144px;
+      height: 53px;
+    }
+    
+    .inquiry {
+      display: none;
+    }
+    .inquiry__SP {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .inquiry__SP__title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      margin-left: -160px;
+    }
+    .inquiry__SP__btn {
+      background-color: #61b323;
+      padding: 14px 42px;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      font-size: 15px;
+      font-weight: bold;
+    }
 
+    
   /******************************************************************
 
     Stylesheet: フッター
 
     ******************************************************************/
+    .footer {
+      padding-top: 60px;
+    }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
   /******************************************************************
 
     Stylesheet: ヘッダー
@@ -702,10 +846,15 @@ Stylesheet: フッター
     Stylesheet: バナー
 
     ******************************************************************/
-  .banner__PC {
-    display: none;
-  }
-
+    .banner__SP {
+      display: block;
+      width: 100%;
+      height: 851px;
+    }
+    .banner__SP > img {
+      width: 100%;
+      height: 100%;
+    }
   /******************************************************************
 
     Stylesheet: Step
