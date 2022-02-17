@@ -22,8 +22,15 @@ Stylesheet: ヘッダー
   padding: 25px 150px 0;
   background-color: #ffffff;
 }
+.header__log {
+  width: 130px;
+  height: 47px;
+}
 
 .mobile-menu__btn {
+  display: none;
+}
+.mobile-menu {
   display: none;
 }
 
@@ -442,6 +449,13 @@ Stylesheet: フッター
   margin-top: 120px;
 }
 
+.mobile__app {
+  display: none;
+}
+.mobile__textGoogle, .mobile__textApple {
+  display: none;
+}
+
 /* TOPに戻るボタン */
 #page__top {
   position: fixed;
@@ -524,11 +538,12 @@ Stylesheet: フッター
 
     /* モバイルメニュー */
     .mobile-menu {
+      display: block;
       position: fixed;
       right: 0;
-      top: 250px;
+      top: 150px;
       width: 100%;
-      z-index: 500;
+      z-index: 200;
     }
     .mobile-menu__btn {
       display: block;
@@ -536,6 +551,7 @@ Stylesheet: フッター
       border: none;
       outline: none !important;
       cursor: pointer;
+      z-index: 200;
     }
     .mobile-menu__btn > span {
       background-color: #000;
@@ -559,6 +575,7 @@ Stylesheet: フッター
       visibility: hidden;
       transition: opacity 1s;
       cursor: pointer;
+      z-index: 200;
     }
     .mobile-menu__main {
       padding: 0;
@@ -612,6 +629,73 @@ Stylesheet: フッター
       padding-bottom: 15px;
       border-bottom: solid 2px #fff;
       color: #fff;
+    }
+    #last-title {
+      border-bottom: none;
+    }
+
+    .mobile__app {
+      perspective: 2000px;
+      transform-style: preserve-3d;
+    }
+    .mobile__app__android__btn, .mobile__app__android__btn > img, 
+    .mobile__app__iphone__btn, .mobile__app__iphone__btn > img, 
+    .mobile__textApple, .mobile__textGoogle {
+      display: block;
+      transform: translate3d(0, 0, -1000px);
+      transition: transform 0.3s, opacity 0.2s;
+      opacity: 0;
+    }
+
+    .menu-open .mobile__app {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+    }
+    .menu-open .mobile__app__android__btn {
+      border: none;
+      background-color: rgba(100, 178, 42, 0.95);
+      opacity: 1;
+      transform: none;
+    }
+    .menu-open .mobile__app__android__btn > img {
+      width: 177px;
+      height: 53px;
+      opacity: 1;
+      transform: none;
+    }
+    .menu-open .mobile__app__iphone__btn {
+      border: none;
+      background-color: rgba(100, 178, 42, 0.95);
+      opacity: 1;
+      transform: none;
+    }
+    .menu-open .mobile__app__iphone__btn > img {
+      width: 144px;
+      height: 53px;
+      opacity: 1;
+      transform: none;
+    }
+    .menu-open .mobile__textGoogle {
+      display: block;
+      width: 329px;
+      font-size: 11px;
+      color: #fff;
+      margin: 0 auto;
+      margin-top: 15px;
+      padding-left: 1em;
+      text-indent: -1em;
+      opacity: 1;
+    }
+    .menu-open .mobile__textApple {
+      display: block;
+      width: 329px;
+      font-size: 11px;
+      color: #fff;
+      margin: 0 auto;
+      padding-left: 1em;
+      text-indent: -1em;
+      opacity: 1;
     }
 
   /******************************************************************
