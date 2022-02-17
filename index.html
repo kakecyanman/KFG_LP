@@ -12,7 +12,8 @@
 <body>
     <div id="global-container">
         <div id="container">
-            <header class="header">
+            <div class="mobile-menu__cover"></div>
+            <header class="header flex">
                 <img src="/images/PC/Logo.png" alt="Hugmeg" class="header__log">
                 <button class="mobile-menu__btn">
                     <span></span>
@@ -284,8 +285,38 @@
                 <a href="#" id="page__top">TOP</a>
             </footer>
         </div>
+        <nav class="mobile-menu">
+            <ul class="mobile-menu__main">
+                <li class="mobile-menu__item">
+                  <a class="mobile-menu__link" href="#">
+                    <span class="main-title">TOP</span>
+                  </a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a class="mobile-menu__link" href="#">
+                    <span class="main-title">応募方法</span>
+                  </a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a class="mobile-menu__link" href="#">
+                    <span class="main-title">キャンペーン概要</span>
+                  </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#">
+                      <span class="main-title">Hugmegとは？</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#">
+                      <span class="main-title">お問い合わせ</span>
+                    </a>
+                </li>
+              </ul>
+        </nav>
     </div>
 
+    <script src="scripts/mobile-menu.js"></script>
     <script src="scripts/swiper.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
