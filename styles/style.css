@@ -145,6 +145,9 @@ Stylesheet: Step
   margin-left: 10px;
 }
 
+.step__03__img {
+  position: relative;
+}
 .swiper-container {
   width: 280px;
   height: 547px;
@@ -157,14 +160,18 @@ Stylesheet: Step
   text-align: center;
 }
 .swiper-pagination {
-  width: 34%;
+  width: 100%;
+  transform: translateY(-50px);
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
 }
 .swiper-button-prev {
-  transform: translateX(-20px);
-  z-index: 150;
+  transform: translateX(50px);
 }
-.swiper-button-prev::after {
-  z-index: 150;
+.swiper-button-next {
+  transform: translateX(-50px);
 }
 
 /******************************************************************
@@ -819,6 +826,13 @@ Stylesheet: フッター
 
   .swiper-pagination {
     width: 100%;
+    transform: translateY(0);
+  }
+  .swiper-button-prev {
+    transform: translateX(0);
+  }
+  .swiper-button-next {
+    transform: translateX(0);
   }
 
   /******************************************************************
