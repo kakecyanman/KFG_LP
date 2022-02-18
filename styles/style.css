@@ -626,6 +626,13 @@ Stylesheet: フッター
     .menu-open .mobile-menu__item {
       transform: none;
       opacity: 1;
+      max-width: 280px;
+      margin: 0 auto;
+      border-bottom: solid 2px #fff;
+      padding: 15px 0;
+    }
+    .menu-open .mobile-menu__link {
+      margin-top: 0;
     }
     .menu-open .mobile-menu__btn > span {
       background-color: #fff;
@@ -645,8 +652,6 @@ Stylesheet: フッター
     .main-title {
       font-weight: bold;
       font-size: 20px;
-      padding-bottom: 15px;
-      border-bottom: solid 2px #fff;
       color: #fff;
     }
     #last-title {

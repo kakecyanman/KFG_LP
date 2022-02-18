@@ -27,7 +27,7 @@
             <div class="banner__SP">
                 <img src="/images/SP/main_sp.png" alt="Hugmeg アプリダウンロードキャンペーン">
             </div>
-            <div class="stepIcon__SP">
+            <div class="stepIcon__SP" id="stepIcon__SP">
                 <div class="stepIcon__SP__title">\ 応募方法は3STEP /</div>
                 <div class="stepIcon__SP__icon flex">
                     <div class="stepIcon__SP__register">
@@ -137,7 +137,7 @@
                     
                 </div>
             </div>
-            <div class="campaign">
+            <div class="campaign" id="campaign">
                 <div class="campaign__period">
                     <h2 class="campaign__title">キャンペーン期間</h2>
                     <div class="campaign__day">2022年3月10日（木）〜4月30日（土）</div>
@@ -199,7 +199,7 @@
                     </button>
                 </div>
             </div>
-            <div class="detail__SP">
+            <div class="detail__SP" id="detail__SP">
                 <div class="detail__SP__main">
                     <div class="detail__SP__title">
                         <img src="/images/PC/About_navi.png" alt="Hugmeg">
@@ -261,7 +261,7 @@
                         こちらをクリック
                     </button>
                 </div>
-                <div class="inquiry__SP flex">
+                <div class="inquiry__SP flex" id="inquiry__SP">
                     <div class="inquiry__SP__title">お問い合わせ</div>
                     <button class="inquiry__SP__btn" onclick="location.href='mailto:hugmeg.info＠ml.kyushu-fg.co.jp'">
                         メールでのお問い合わせ
@@ -296,30 +296,30 @@
             </footer>
         </div>
         <nav class="mobile-menu">
-            <ul class="mobile-menu__main">
+            <ul class="mobile-menu__main" id="mobile-menu__main">
                 <li class="mobile-menu__item">
                   <a class="mobile-menu__link" href="#">
                     <span class="main-title">TOP</span>
                   </a>
                 </li>
                 <li class="mobile-menu__item">
-                  <a class="mobile-menu__link" href="#">
+                  <a class="mobile-menu__link" href="#stepIcon__SP">
                     <span class="main-title">応募方法</span>
                   </a>
                 </li>
                 <li class="mobile-menu__item">
-                  <a class="mobile-menu__link" href="#">
+                  <a class="mobile-menu__link" href="#campaign">
                     <span class="main-title">キャンペーン概要</span>
                   </a>
                 </li>
                 <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="#">
+                    <a class="mobile-menu__link" href="#detail__SP">
                       <span class="main-title">Hugmegとは？</span>
                     </a>
                 </li>
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="#">
-                      <span class="main-title" id="last-title">お問い合わせ</span>
+                <li class="mobile-menu__item" id="last-title">
+                    <a class="mobile-menu__link" href="#inquiry__SP">
+                      <span class="main-title">お問い合わせ</span>
                     </a>
                 </li>
               </ul>
