@@ -562,7 +562,6 @@ Stylesheet: フッター
       right: 0;
       top: 150px;
       width: 100%;
-      z-index: 200;
     }
     .mobile-menu__btn {
       display: block;
@@ -594,12 +593,12 @@ Stylesheet: フッター
       visibility: hidden;
       transition: opacity 1s;
       cursor: pointer;
-      z-index: 200;
     }
     .mobile-menu__main {
       padding: 0;
       perspective: 2000px;
       transform-style: preserve-3d;
+      visibility: collapse;
     }
     .mobile-menu__item {
       list-style: none;
@@ -616,12 +615,17 @@ Stylesheet: フッター
       text-decoration: none;
     }
 
+    .menu-open .mobile-menu {
+      z-index: 200;
+    }
     .menu-open .mobile-menu__main {
       text-align: center;
+      visibility: visible;
     }
     .menu-open .mobile-menu__cover {
       opacity: 1;
       visibility: visible;
+      z-index: 200;
     }
     .menu-open .mobile-menu__item {
       transform: none;
@@ -633,6 +637,12 @@ Stylesheet: フッター
     }
     .menu-open .mobile-menu__link {
       margin-top: 0;
+      z-index: 201;
+    }
+    .menu-open .mobile-menu__btn {
+      position: fixed;
+      top: 30px;
+      right: 30px;
     }
     .menu-open .mobile-menu__btn > span {
       background-color: #fff;
