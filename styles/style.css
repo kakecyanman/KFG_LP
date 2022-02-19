@@ -865,43 +865,6 @@ Stylesheet: フッター
     font-size: 11px;
   }
 
-  /* リボンテープ */
-.campaign__title {
-  display: inline-block;
-  position: relative;
-  height: 40px;
-  line-height: 40px;
-  text-align: left;
-  padding: 0 40px;
-  font-size: 18px;
-  background-color: #000;
-  color: #fff;
-  box-sizing: border-box;
-  margin-top: 80px;
-}
-.campaign__title::before,
-.campaign__title::after {
-  position: absolute;
-  content: "";
-  width: 0px;
-  height: 0px;
-  z-index: 1;
-}
-.campaign__title::before {
-  top: 0;
-  left: 0;
-  border-width: 0px;
-  border-color: transparent transparent transparent #fff;
-  border-style: solid;
-}
-.campaign__title::after {
-  top: 0;
-  right: 0;
-  border-width: 20px 10px 20px 0px;
-  border-color: transparent #fff transparent transparent;
-  border-style: solid;
-}
-
   /******************************************************************
 
     Stylesheet: Hugmegとは
@@ -1078,7 +1041,49 @@ Stylesheet: フッター
     Stylesheet: キャンペーン概要
 
     ******************************************************************/
-
+    #day__title {
+      transform: translateX(-80px);
+    }
+    #contents__title {
+      transform: translateX(-20px);
+    }
+  
+    /* リボンテープ */
+  .campaign__title {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding: 0 40px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    margin-top: 80px;
+  }
+  .campaign__title::before,
+  .campaign__title::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+  }
+  .campaign__title::before {
+    top: 0;
+    left: 0;
+    border-width: 0px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+  }
+  .campaign__title::after {
+    top: 0;
+    right: 0;
+    border-width: 20px 10px 20px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+  }
   /******************************************************************
 
     Stylesheet: Hugmegとは
