@@ -210,8 +210,18 @@ Stylesheet: キャンペーン概要
   margin: 0 auto;
   margin-top: 40px;
   padding: 25px;
+  padding-bottom: 10px;
   font-size: 11px;
   border: solid 1px #e6e6e6;
+}
+.campaign__ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.li__text {
+  padding-left: 1em;
+  text-indent: -1em;
+  line-height: 2;
 }
 
 /* リボンテープ */
@@ -886,6 +896,8 @@ Stylesheet: フッター
   .campaign__contents {
     width: 85%;
     font-size: 11px;
+    padding: 20px 20px;
+    padding-bottom: 10px;
   }
 
   /******************************************************************
@@ -1009,7 +1021,7 @@ Stylesheet: フッター
       font-weight: bold;
       margin-top: 50px;
       margin-bottom: 25px;
-      margin-left: -160px;
+      margin-left: -80px;
     }
     .inquiry__SP__btn {
       background-color: #61b323;
