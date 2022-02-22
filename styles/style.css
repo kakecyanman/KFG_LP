@@ -95,6 +95,11 @@ Stylesheet: Step
   width: 100%;
 }
 
+.step__01__logo, .step__02__logo, .step__03__logo {
+  width: 70px;
+  height: 70px;
+}
+
 .step__01 {
   width: 33.5%;
   background-color: #f7ffff;
@@ -126,9 +131,17 @@ Stylesheet: Step
   border: none;
   background-color: #f7ffff;
 }
+.step__01__android__btn > img {
+  width: 177px;
+  height: 53px;
+}
 .step__01__iphone__btn {
   border: none;
   background-color: #f7ffff;
+}
+.step__01__iphone__btn > img {
+  width: 141px;
+  height: 53px;
 }
 
 .step__02 {
@@ -154,10 +167,9 @@ Stylesheet: Step
 .step__02__img {
   margin-top: 160px;
 }
-.step__02__imgText {
-  font-size: 12px;
-}
 .step__02__img > img {
+  width: 340px;
+  height: 333px;
   margin-top: -10px;
 }
 
@@ -190,10 +202,16 @@ Stylesheet: Step
 }
 .swiper__bar {
   text-align: center;
+  width: 255px;
+  height: 12px;
+}
+.swiper__img {
+  width: 280px;
+  height: 498px;
 }
 .swiper-pagination {
   width: 100%;
-  transform: translateY(-50px);
+  /* transform: translateY(-50px); */
 }
 .swiper-pagination-bullet {
   width: 10px;
@@ -320,6 +338,10 @@ Stylesheet: Hugmegとは
   font-weight: bold;
   vertical-align: bottom;
 }
+.detail__title > img {
+  width: 210px;
+  height: 74px;
+}
 .detail__text {
   width: 400px;
   font-size: 18px;
@@ -388,6 +410,10 @@ Stylesheet: 応募方法
   height: 25px;
   margin: 0 15px;
   transform: translateY(-15px);
+}
+.stepIcon__register__icon, .stepIcon__check__icon, .stepIcon__get__icon {
+  width: 106px;
+  height: 106px;
 }
 
 .download {
@@ -1079,7 +1105,6 @@ Stylesheet: フッター
       font-weight: bold;
     }
 
-    
   /******************************************************************
 
     Stylesheet: フッター
@@ -1122,6 +1147,7 @@ Stylesheet: フッター
       top: 68%;
       left: 10%;
     }
+
   /******************************************************************
 
     Stylesheet: Step
@@ -1180,12 +1206,13 @@ Stylesheet: フッター
     border-color: transparent #fff transparent transparent;
     border-style: solid;
   }
+
   /******************************************************************
 
     Stylesheet: Hugmegとは
 
     ******************************************************************/
-
+    
   /******************************************************************
 
     Stylesheet: 応募方法
