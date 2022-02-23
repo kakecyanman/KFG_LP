@@ -468,7 +468,7 @@ Stylesheet: 応募方法
 }
 .inquiry__btn {
   background-color: #61b323;
-  padding: 20px 122px;
+  padding: 20px 100px;
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -1096,7 +1096,6 @@ Stylesheet: フッター
       font-weight: bold;
       margin-top: 50px;
       margin-bottom: 25px;
-      margin-left: -80px;
     }
     .inquiry__SP__btn {
       background-color: #61b323;
