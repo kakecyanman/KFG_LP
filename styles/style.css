@@ -239,6 +239,33 @@ Stylesheet: キャンペーン概要
   margin: 0 auto;
   text-align: center;
 }
+.period__title {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.PC__ribbonS {
+  width: 230px;
+  height: 40px;
+  margin-top: 80px;
+}
+.campaign__title {
+  font-size: 18px;
+  font-weight: normal;
+  transform: translateY(-33px);
+  color: #fff;
+}
+.PC__ribbonL {
+  width: 340px;
+  height: 40px;
+  margin-top: 80px;
+}
+.PC__ribbonS, .PC__ribbonL {
+  display: inline;
+}
+.SP__ribbonS, .SP__ribbonL {
+  display: none;
+}
 .campaign__day {
   font-size: 20px;
   font-weight: bold;
@@ -264,7 +291,7 @@ Stylesheet: キャンペーン概要
   padding: 25px;
   padding-bottom: 10px;
   font-size: 11px;
-  border: solid 1px #e6e6e6;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16);
 }
 .campaign__ul {
   list-style-type: none;
@@ -277,7 +304,7 @@ Stylesheet: キャンペーン概要
 }
 
 /* リボンテープ */
-.campaign__title {
+/* .campaign__title {
   display: inline-block;
   position: relative;
   height: 40px;
@@ -312,7 +339,7 @@ Stylesheet: キャンペーン概要
   border-width: 20px 10px 20px 0px;
   border-color: transparent #fff transparent transparent;
   border-style: solid;
-}
+} */
 
 /******************************************************************
 
@@ -924,6 +951,7 @@ Stylesheet: フッター
   }
   .step__02__text {
     font-size: 14px;
+    font-weight: normal;
   }
   .step__02__img {
     margin-top: 20px;
@@ -1168,46 +1196,37 @@ Stylesheet: フッター
     .campaign__day, .campaign__text {
       text-align: center;
     }
-    #day__title {
-      transform: translateX(-11%);
+    .PC__ribbonS, .PC__ribbonL {
+      display: none;
     }
+    .SP__ribbonS, .SP__ribbonL {
+      display: inline;
+    }
+    .SP__ribbonS {
+      width: 190px;
+      height: 40px;
+      transform: translateX(-10%);
+    }
+    .SP__ribbonL {
+      width: 290px;
+      height: 40px;
+      margin-top: 60px;
+    }
+    #contents__title {
+      margin-left: 5%;
+    }
+
+    /* #day__title {
+      transform: translateX(-11%);
+    } */
   
     /* リボンテープ */
-  .campaign__title {
-    display: inline-block;
-    position: relative;
-    height: 40px;
-    line-height: 40px;
+  /* .campaign__title {
     text-align: left;
-    padding: 0 40px;
-    font-size: 18px;
-    background-color: #000;
-    color: #fff;
-    box-sizing: border-box;
-    margin-top: 80px;
-  }
-  .campaign__title::before,
-  .campaign__title::after {
-    position: absolute;
-    content: "";
-    width: 0px;
-    height: 0px;
-    z-index: 1;
   }
   .campaign__title::before {
-    top: 0;
-    left: 0;
-    border-width: 0px;
-    border-color: transparent transparent transparent #fff;
-    border-style: solid;
-  }
-  .campaign__title::after {
-    top: 0;
-    right: 0;
-    border-width: 20px 10px 20px 0px;
-    border-color: transparent #fff transparent transparent;
-    border-style: solid;
-  }
+    border-style: none;
+  } */
 
   /******************************************************************
 
