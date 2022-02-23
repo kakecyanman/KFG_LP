@@ -1024,6 +1024,9 @@ Stylesheet: フッター
     font-weight: bold;
     margin-bottom: 60px;
   }
+  .SP__img {
+    width: 100%;
+  }
 
   .triangle::after {
     border-top: 10px solid #f1f3cd;
