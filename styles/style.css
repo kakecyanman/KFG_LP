@@ -73,6 +73,9 @@ Stylesheet: ヘッダー
 Stylesheet: バナー
 
 ******************************************************************/
+.banner__PC {
+  position: relative;
+}
 .banner__PC > img {
   height: 100%;
   width: 100%;
@@ -84,6 +87,18 @@ Stylesheet: バナー
 
 .stepIcon__SP, .triangle__SP {
   display: none;
+}
+
+.banner__PC p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 23% 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(100, 178, 42, 0.8);
 }
 /******************************************************************
 
@@ -861,6 +876,17 @@ Stylesheet: フッター
     top: 68%;
     left: 10%;
   }
+  .banner__SP p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 74% 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(100, 178, 42, 0.8);
+  }
 
   .stepIcon__SP {
     display: block;
@@ -1176,6 +1202,18 @@ Stylesheet: フッター
       font-weight: bold;
       top: 68%;
       left: 10%;
+    }
+
+    .banner__SP p {
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+      padding: 73% 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: rgba(100, 178, 42, 0.8);
     }
 
   /******************************************************************
