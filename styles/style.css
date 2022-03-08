@@ -671,7 +671,7 @@ Stylesheet: フッター
 
     /* モバイルメニュー */
     .mobile-menu {
-      display: block;
+      display: none;
       position: fixed;
       overflow: scroll;
       right: 0;
@@ -734,6 +734,7 @@ Stylesheet: フッター
     }
 
     .menu-open .mobile-menu {
+      display: block;
       z-index: 200;
     }
     .menu-open .mobile-menu__main {
