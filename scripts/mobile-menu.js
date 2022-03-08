@@ -17,7 +17,7 @@ class MobileMenu {
       navigator.maxTouchPoints > 0 ||
       window.navigator.msMaxTouchPoints > 0;
 
-    return isTouchCapable ? "touchstart" : "click";
+    return isTouchCapable ? "touchend" : "click";
   }
 
   _toggle() {
@@ -26,7 +26,7 @@ class MobileMenu {
 
   _addEvent() {
     this.DOM.btn.addEventListener(this.eventType, this._toggle.bind(this));
-    // this.DOM.link.addEventListener(this.eventType, this._toggle.bind(this));
+    this.DOM.link.addEventListener(this.eventType, this._toggle.bind(this));
     // this.DOM.cover.addEventListener(this.eventType, this._toggle.bind(this));
     this.DOM.main.addEventListener(this.eventType, this._toggle.bind(this));
   }
