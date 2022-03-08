@@ -1278,8 +1278,8 @@ Stylesheet: フッター
     }
 
     .step__02__img > img {
-      width: 320px;
-      height: 313px;
+      width: 310px;
+      height: 303px;
     }
 
     .step__03__title {
@@ -1302,8 +1302,8 @@ Stylesheet: フッター
 
     ******************************************************************/
     .detail__SP__img {
-      width: 310px;
-      height: 305px;
+      width: 300px;
+      height: 295px;
     }
 
   /******************************************************************
@@ -1311,6 +1311,11 @@ Stylesheet: フッター
     Stylesheet: 応募方法
 
     ******************************************************************/
+    .stepIcon__register__icon, .stepIcon__check__icon, .stepIcon__get__icon {
+      width: 76px;
+      height: 76px;
+    }
+    
     .download__app__android__btn > img {
       width: 157px;
       height: 43px;
