@@ -11,7 +11,7 @@ class MobileMenu {
 
   _getEventType() {
     const isTouchCapable =
-      "ontouchstart" in window ||
+      "ontouchend" in window ||
       (window.DocumentTouch && document instanceof window.DocumentTouch) ||
       navigator.maxTouchPoints > 0 ||
       window.navigator.msMaxTouchPoints > 0;
