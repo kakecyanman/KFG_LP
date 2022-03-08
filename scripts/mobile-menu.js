@@ -16,7 +16,7 @@ class MobileMenu {
       navigator.maxTouchPoints > 0 ||
       window.navigator.msMaxTouchPoints > 0;
 
-    return isTouchCapable ? "touchend" : "click";
+    return isTouchCapable ? "touchstart" : "click";
   }
 
   _toggle() {
