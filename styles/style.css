@@ -685,7 +685,7 @@ Stylesheet: フッター
       border: none;
       outline: none !important;
       cursor: pointer;
-      /* z-index: 200; */
+      z-index: 200;
     }
     .mobile-menu__btn > span {
       background-color: #000;
