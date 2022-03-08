@@ -677,7 +677,7 @@ Stylesheet: フッター
       right: 0;
       top: 150px;
       width: 100%;
-      z-index: -1;
+      z-index: 210;
     }
     .mobile-menu__btn {
       display: block;
@@ -685,7 +685,7 @@ Stylesheet: フッター
       border: none;
       outline: none !important;
       cursor: pointer;
-      z-index: 200;
+      /* z-index: 200; */
     }
     .mobile-menu__btn > span {
       background-color: #000;
@@ -734,7 +734,7 @@ Stylesheet: フッター
     }
 
     .menu-open .mobile-menu {
-      z-index: 200;
+      z-index: 210;
     }
     .menu-open .mobile-menu__main {
       text-align: center;
