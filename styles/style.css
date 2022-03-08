@@ -616,7 +616,7 @@ Stylesheet: フッター
     .header {
       height: 75px;
       width: 100%;
-      padding: 15px 40px 0;
+      padding: 15px 20px 0 35px;
       background-color: #ffffff;
       justify-content: space-between;
     }
@@ -718,7 +718,7 @@ Stylesheet: フッター
     .menu-open .mobile-menu__btn {
       position: fixed;
       top: 30px;
-      right: 40px;
+      right: 20px;
     }
     .menu-open .mobile-menu__btn > span {
       background-color: #fff;
