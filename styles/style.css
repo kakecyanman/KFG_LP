@@ -677,7 +677,7 @@ Stylesheet: フッター
       right: 0;
       top: 150px;
       width: 100%;
-      z-index: 210;
+      /* z-index: 210; */
     }
     .mobile-menu__btn {
       display: block;
@@ -709,7 +709,7 @@ Stylesheet: フッター
       visibility: hidden;
       transition: opacity 1s;
       cursor: pointer;
-      z-index: -1;
+      /* z-index: -1; */
     }
     .mobile-menu__main {
       padding: 0;
@@ -734,7 +734,7 @@ Stylesheet: フッター
     }
 
     .menu-open .mobile-menu {
-      z-index: 210;
+      z-index: 200;
     }
     .menu-open .mobile-menu__main {
       text-align: center;
@@ -756,7 +756,7 @@ Stylesheet: フッター
     .menu-open .mobile-menu__link {
       position: relative;
       margin-top: 0;
-      z-index: 201;
+      /* z-index: 201; */
     }
     .menu-open .mobile-menu__btn {
       position: fixed;
