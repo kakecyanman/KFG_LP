@@ -89,7 +89,7 @@ Stylesheet: バナー
   display: none;
 }
 
-.banner__fin {
+/* .banner__fin {
   position: absolute;
   top: 0;
   left: 0;
@@ -103,7 +103,7 @@ Stylesheet: バナー
   text-align: center;
   width: 100%;
   padding: 23% 0;
-}
+} */
 /******************************************************************
 
 Stylesheet: Step
@@ -838,13 +838,13 @@ Stylesheet: フッター
     top: 68%;
     left: 10%;
   }
-  .banner__fin p {
+  /* .banner__fin p {
     color: #fff;
     font-size: 20px;
     text-align: center;
     width: 100%;
     padding: 74% 0;
-  }
+  } */
 
   .stepIcon__SP {
     display: block;
@@ -1162,13 +1162,13 @@ Stylesheet: フッター
       left: 10%;
     }
 
-    .banner__fin p {
+    /* .banner__fin p {
       color: #fff;
       font-size: 16px;
       text-align: center;
       width: 100%;
       padding: 73% 0;
-    }
+    } */
 
   /******************************************************************
 
